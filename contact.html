@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>forms</h1>
+    <form action="">
+      <div>
+        <label for="txt">Fullname</label>
+        <br />
+        <input
+          type="text"
+          id="txt"
+          name="fullname"
+          placeholder="write fullname here"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="psw">password</label><br />
+        <input type="password" id="psw" name="password" autocomplete="off" />
+      </div>
+      <div>
+        <label for="eml">email</label><br />
+        <input type="email" id="eml" value="@gmail.com" />
+      </div>
+      <br />
+      <div>
+        <label for="clr">Color</label>
+        <input type="color" id="clr" />
+      </div>
+      <br /><br />
+      <div>
+        <label for=""><b>HOBBY</b></label
+        ><br />
+        <label for="">Football</label>
+        <input type="checkbox" />
+        <br />
+        <label for="">pool</label>
+        <input type="checkbox" />
+        <br />
+        <label for="">cooking</label>
+        <input type="checkbox" /><br />
+        <label for="">music</label>
+        <input type="checkbox" /><br /><br />
+        <div>
+          <label for=""><b>Gender</b></label>
+          <br />
+          <label for="">man</label>
+          <input type="radio" name="gender" /><br />
+          <label for="">woman</label>
+          <input type="radio" name="gender" />
+        </div>
+        <div>
+            <label for="">Number</label><br>
+            <input type="number">
+        </div>
+
+        <div>
+            <label for="">Date</label><br>
+            <input type="date">
+        </div>
+        <br>
+        <div>
+            <label for="imageinput">image</label>
+            <input type="file" id="imageinput" style="display: none;">
+        </div>
+        <br>
+        <div>
+            <label for="mssg">message</label>
+            <textarea name="" id="mssg" cols="20" rows="5"></textarea>
+        </div>
+
+        <br><br>
+       <div>
+        <select name="" id="" multiple>
+            <option value="1">BMW</option>
+            <option value="2">KIA</option>
+            <option value="3">OPEL</option>
+        </select>
+       </div>
+
+      </div>
+    </form>
+  </body>
+</html>
